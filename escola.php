@@ -55,14 +55,14 @@ class Professor extends Pessoa{
 class Diretor extends Pessoa{
     public function falar()
     {
-        echo "Meu nome é {$this->nome} e sou Diretor.<br>";
+        echo "Meu nome é {$this->nome} e sou a diretora.<br>";
     }
 }
 
 class Funcionario extends Pessoa{
     public function falar()
     {
-        echo "Oi! Sou o funcionário {$this->nome} e sou {$this->materia}.<br>";
+        echo "Olá, sou a funcionária {$this->nome} e sou {$this->materia}.<br>";
     }
 }
 
